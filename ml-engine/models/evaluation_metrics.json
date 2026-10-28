@@ -1,0 +1,6 @@
+{
+  "precision@3": 0.3033,
+  "recall@3": 0.9098,
+  "mrr@3": 0.797,
+  "evaluation_strategy": "Leave-One-Out Cross-Validation (K=3)"
+}

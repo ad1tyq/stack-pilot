@@ -1,0 +1,2643 @@
+[
+  {
+    "antecedents": [
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.7083,
+    "confidence": 0.9444,
+    "lift": 0.9855
+  },
+  {
+    "antecedents": [
+      "docker"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.7083,
+    "confidence": 0.7391,
+    "lift": 0.9855
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.5833,
+    "confidence": 0.9333,
+    "lift": 0.9739
+  },
+  {
+    "antecedents": [
+      "docker"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.5833,
+    "confidence": 0.6087,
+    "lift": 0.9739
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.5417,
+    "confidence": 0.8667,
+    "lift": 1.1556
+  },
+  {
+    "antecedents": [
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.5417,
+    "confidence": 0.7222,
+    "lift": 1.1556
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.5,
+    "confidence": 0.9231,
+    "lift": 0.9632
+  },
+  {
+    "antecedents": [
+      "docker",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.5,
+    "confidence": 0.7059,
+    "lift": 1.1294
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.5,
+    "confidence": 0.8571,
+    "lift": 1.1429
+  },
+  {
+    "antecedents": [
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.5,
+    "confidence": 0.6667,
+    "lift": 1.1429
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.5,
+    "confidence": 0.8,
+    "lift": 1.1294
+  },
+  {
+    "antecedents": [
+      "docker"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.5,
+    "confidence": 0.5217,
+    "lift": 0.9632
+  },
+  {
+    "antecedents": [
+      "fastapi"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.25,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "fastapi"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.1111
+  },
+  {
+    "antecedents": [
+      "fastapi"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.0667
+  },
+  {
+    "antecedents": [
+      "fastapi",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "fastapi"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.1111
+  },
+  {
+    "antecedents": [
+      "fastapi"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.1765
+  },
+  {
+    "antecedents": [
+      "docker",
+      "fastapi"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.0667
+  },
+  {
+    "antecedents": [
+      "fastapi",
+      "postgresql"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "fastapi"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.1429
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "fastapi"
+    ],
+    "support": 0.1667,
+    "confidence": 0.3077,
+    "lift": 1.2308
+  },
+  {
+    "antecedents": [
+      "fastapi",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.28
+  },
+  {
+    "antecedents": [
+      "fastapi",
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "fastapi"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.2308
+  },
+  {
+    "antecedents": [
+      "fastapi",
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "fastapi",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.28
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "fastapi"
+    ],
+    "support": 0.1667,
+    "confidence": 0.3333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "docker",
+      "fastapi",
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "fastapi",
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.3714
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "fastapi"
+    ],
+    "support": 0.1667,
+    "confidence": 0.3077,
+    "lift": 1.2308
+  },
+  {
+    "antecedents": [
+      "fastapi",
+      "postgresql"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.4118
+  },
+  {
+    "antecedents": [
+      "docker",
+      "fastapi"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.2308
+  },
+  {
+    "antecedents": [
+      "fastapi"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "sentry"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.25,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "sentry"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.1111
+  },
+  {
+    "antecedents": [
+      "docker",
+      "sentry"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.1111
+  },
+  {
+    "antecedents": [
+      "redis",
+      "sentry"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "sentry"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.1765
+  },
+  {
+    "antecedents": [
+      "alembic"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "alembic"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "alembic"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "alembic"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.8462
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "postgresql"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "docker"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "alembic"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.7143
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "docker"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "alembic"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.4118
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "docker",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "docker",
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.7143
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "postgresql"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.4118
+  },
+  {
+    "antecedents": [
+      "alembic",
+      "docker"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.8462
+  },
+  {
+    "antecedents": [
+      "alembic"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 2.0
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "celery"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.1111
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 0.8696
+  },
+  {
+    "antecedents": [
+      "celery",
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "celery",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "celery"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3846,
+    "lift": 1.5385
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.5385
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "celery",
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3333,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "celery",
+      "docker"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.0667
+  },
+  {
+    "antecedents": [
+      "celery",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 0.8348
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 0.9412
+  },
+  {
+    "antecedents": [
+      "celery",
+      "postgresql"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 0.8348
+  },
+  {
+    "antecedents": [
+      "celery",
+      "docker"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.28
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.1429
+  },
+  {
+    "antecedents": [
+      "celery",
+      "docker",
+      "postgresql"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "celery",
+      "docker",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "celery",
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 0.8348
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "celery"
+    ],
+    "support": 0.1667,
+    "confidence": 0.3333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "celery",
+      "docker"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.4769
+  },
+  {
+    "antecedents": [
+      "celery",
+      "postgresql"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.1294
+  },
+  {
+    "antecedents": [
+      "celery",
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.3714
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "celery",
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.3077,
+    "lift": 1.4769
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.25,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.6667
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "prometheus"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3571,
+    "lift": 1.4286
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.2083,
+    "confidence": 0.8333,
+    "lift": 1.4286
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "docker",
+      "prometheus"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3333,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.6667
+  },
+  {
+    "antecedents": [
+      "prometheus",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.7059
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "prometheus"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 0.8
+  },
+  {
+    "antecedents": [
+      "prometheus",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.9231
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql",
+      "prometheus"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 0.8
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus",
+      "redis"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "prometheus",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.9231
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 0.8471
+  },
+  {
+    "antecedents": [
+      "prometheus",
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.7143
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 1.0
+  },
+  {
+    "antecedents": [
+      "mongodb"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "mongodb"
+    ],
+    "consequents": [
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "sentry"
+    ],
+    "consequents": [
+      "mongodb"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "mongodb"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 1.0
+  },
+  {
+    "antecedents": [
+      "mongodb",
+      "sentry"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "sentry"
+    ],
+    "consequents": [
+      "mongodb"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "mongodb"
+    ],
+    "consequents": [
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "sentry"
+    ],
+    "consequents": [
+      "docker",
+      "mongodb"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "mongodb"
+    ],
+    "consequents": [
+      "docker",
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "mongodb",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "mongodb"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 1.0
+  },
+  {
+    "antecedents": [
+      "mongodb"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 1.0588
+  },
+  {
+    "antecedents": [
+      "mongodb",
+      "redis"
+    ],
+    "consequents": [
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "redis",
+      "sentry"
+    ],
+    "consequents": [
+      "mongodb"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 3.6
+  },
+  {
+    "antecedents": [
+      "mongodb",
+      "sentry"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "mongodb"
+    ],
+    "consequents": [
+      "redis",
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.6
+  },
+  {
+    "antecedents": [
+      "sentry"
+    ],
+    "consequents": [
+      "mongodb",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "mongodb",
+      "sentry"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "docker",
+      "redis",
+      "sentry"
+    ],
+    "consequents": [
+      "mongodb"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 3.6
+  },
+  {
+    "antecedents": [
+      "mongodb",
+      "redis",
+      "sentry"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "mongodb",
+      "redis"
+    ],
+    "consequents": [
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "sentry"
+    ],
+    "consequents": [
+      "mongodb",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "mongodb",
+      "sentry"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.4118
+  },
+  {
+    "antecedents": [
+      "redis",
+      "sentry"
+    ],
+    "consequents": [
+      "docker",
+      "mongodb"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 3.6
+  },
+  {
+    "antecedents": [
+      "docker",
+      "mongodb"
+    ],
+    "consequents": [
+      "redis",
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.6
+  },
+  {
+    "antecedents": [
+      "mongodb",
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "sentry"
+    ],
+    "consequents": [
+      "docker",
+      "mongodb",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "mongodb"
+    ],
+    "consequents": [
+      "docker",
+      "redis",
+      "sentry"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.6
+  },
+  {
+    "antecedents": [
+      "kafka"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "grafana"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "grafana"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "grafana"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "grafana",
+      "prometheus"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "grafana"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus"
+    ],
+    "consequents": [
+      "grafana"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "grafana"
+    ],
+    "consequents": [
+      "docker",
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "grafana"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "kafka"
+    ],
+    "consequents": [
+      "elasticsearch"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 6.0
+  },
+  {
+    "antecedents": [
+      "elasticsearch"
+    ],
+    "consequents": [
+      "kafka"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 6.0
+  },
+  {
+    "antecedents": [
+      "elasticsearch"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "elasticsearch",
+      "kafka"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "kafka"
+    ],
+    "consequents": [
+      "elasticsearch"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 6.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "elasticsearch"
+    ],
+    "consequents": [
+      "kafka"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 6.0
+  },
+  {
+    "antecedents": [
+      "kafka"
+    ],
+    "consequents": [
+      "docker",
+      "elasticsearch"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 6.0
+  },
+  {
+    "antecedents": [
+      "elasticsearch"
+    ],
+    "consequents": [
+      "docker",
+      "kafka"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 6.0
+  },
+  {
+    "antecedents": [
+      "stripe"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "stripe"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3333,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "stripe"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "stripe"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 0.8348
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "stripe"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "redis",
+      "stripe"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "stripe"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3846,
+    "lift": 1.8462
+  },
+  {
+    "antecedents": [
+      "stripe"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.2083,
+    "confidence": 1.0,
+    "lift": 1.8462
+  },
+  {
+    "antecedents": [
+      "postgresql"
+    ],
+    "consequents": [
+      "redis",
+      "stripe"
+    ],
+    "support": 0.2083,
+    "confidence": 0.3333,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "stripe"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 0.8348
+  },
+  {
+    "antecedents": [
+      "docker",
+      "stripe"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "stripe"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.3714
+  },
+  {
+    "antecedents": [
+      "redis",
+      "stripe"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 0.8348
+  },
+  {
+    "antecedents": [
+      "docker",
+      "stripe"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "stripe"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.1294
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis",
+      "stripe"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 0.8348
+  },
+  {
+    "antecedents": [
+      "docker",
+      "redis",
+      "stripe"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql",
+      "stripe"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "stripe"
+    ],
+    "support": 0.1667,
+    "confidence": 0.3333,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "redis",
+      "stripe"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.3714
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "stripe"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.1294
+  },
+  {
+    "antecedents": [
+      "docker",
+      "stripe"
+    ],
+    "consequents": [
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.8462
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "redis"
+    ],
+    "consequents": [
+      "docker",
+      "stripe"
+    ],
+    "support": 0.1667,
+    "confidence": 0.3077,
+    "lift": 1.8462
+  },
+  {
+    "antecedents": [
+      "stripe"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql",
+      "redis"
+    ],
+    "support": 0.1667,
+    "confidence": 0.8,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "django"
+    ],
+    "consequents": [
+      "celery"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "celery"
+    ],
+    "consequents": [
+      "django"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 4.0
+  },
+  {
+    "antecedents": [
+      "mysql"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "rabbitmq"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "express"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "express"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 1.0
+  },
+  {
+    "antecedents": [
+      "express",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "express"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 1.0
+  },
+  {
+    "antecedents": [
+      "express"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 1.0588
+  },
+  {
+    "antecedents": [
+      "nestjs"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "nestjs"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "nestjs",
+      "redis"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "nestjs"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.3333
+  },
+  {
+    "antecedents": [
+      "nestjs"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.4118
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.25,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.0667
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.0
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.0
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.6667
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.1667,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "spring-boot"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.0667
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.1667,
+    "confidence": 0.6667,
+    "lift": 1.1429
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "spring-boot"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "prometheus",
+      "spring-boot"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "prometheus"
+    ],
+    "consequents": [
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 2.4
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "postgresql",
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.4
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "postgresql",
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "prometheus",
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "spring-boot"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus"
+    ],
+    "consequents": [
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.0
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker",
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.0
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.0
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "prometheus",
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus",
+      "spring-boot"
+    ],
+    "consequents": [
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.6
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql",
+      "spring-boot"
+    ],
+    "consequents": [
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "postgresql",
+      "prometheus"
+    ],
+    "consequents": [
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 2.4
+  },
+  {
+    "antecedents": [
+      "prometheus",
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.7143
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker",
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.75,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "docker",
+      "spring-boot"
+    ],
+    "consequents": [
+      "postgresql",
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.4
+  },
+  {
+    "antecedents": [
+      "postgresql",
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.6,
+    "lift": 2.4
+  },
+  {
+    "antecedents": [
+      "docker",
+      "prometheus"
+    ],
+    "consequents": [
+      "postgresql",
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql",
+      "prometheus"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 2.4
+  },
+  {
+    "antecedents": [
+      "prometheus"
+    ],
+    "consequents": [
+      "docker",
+      "postgresql",
+      "spring-boot"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 3.0
+  },
+  {
+    "antecedents": [
+      "redis",
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker"
+    ],
+    "support": 0.125,
+    "confidence": 1.0,
+    "lift": 1.0435
+  },
+  {
+    "antecedents": [
+      "docker",
+      "spring-boot"
+    ],
+    "consequents": [
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.6667
+  },
+  {
+    "antecedents": [
+      "spring-boot"
+    ],
+    "consequents": [
+      "docker",
+      "redis"
+    ],
+    "support": 0.125,
+    "confidence": 0.5,
+    "lift": 0.7059
+  }
+]
